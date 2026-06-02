@@ -10,7 +10,7 @@ public:
 	
 	Personagem(std::string n, int v, int a)
 		: nome(n), vida(v), ataque(a) {}
-
+ 
 	void apresentar(){
 		std::cout << "Personagem: " << nome <<   std::endl;
 		std::cout << "Vida: "       << vida <<   std::endl;
